@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <script src="stickyNotes.js" type="module"></script>
+    <link rel="stylesheet" href="stickyNotes.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <label for="titulo">Titulo:</label>
+            <input type="text" id="titulo" value="">
+        </div>
+        <div>
+            <label for="descripcion">Descripcion:</label>
+            <textarea  id="descripcion" cols="35" rows="1"></textarea>
+        </div>
+        <div>
+            <button id="botonEnviar"></button>
+        </div>
+        <div id="divVista">
+            <input type="radio" id="vista1" name="vista" value="vista1" checked>
+            <label for="vista1">Vista 1</label><br>
+            <input type="radio" id="vista2" name="vista" value="vista2">
+            <label for="vista2">Vista 2</label>
+        </div>
+    </header>
+    <div id="divNotas">
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background-image: url(corcho.jpg);
+}
+
+label{
+    width: 15%;
+}
+
+#divNotas{
+    width: 100%;
+}
+
+#divNotas > section{
+    position: absolute;
+    padding: 0.5%;
+    width: 15%;
+    height: 16vh;
+    background-color: yellow;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#divNotas > section::-webkit-scrollbar,textarea::-webkit-scrollbar{
+    width: 6px;
+} 
+
+#divNotas > section::-webkit-scrollbar-thumb,textarea::-webkit-scrollbar-thumb{
+    background: gold;
+    border-radius: 10px;
+} 
+
+
+#divNotas input{
+    margin: 1%;
+    width: 45%;
+    border: 0px;
+    background-color: yellow;
+}
+#divNotas textarea{
+    margin: 1%;
+    height: 6vh;
+    border: 0px;
+    background-color: yellow;
+}
+
+section div{
+    width: 90%;
+    margin-right: 0;
+}
+
+section div:nth-child(1){
+    width: 20%;
+    margin:0;
+    float:right;
+}
+
+#divNotas p{
+    width: 65%;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+#divVista{
+width: 10%;
+}
+
+textarea{
+    resize: none;
+    overflow: auto;
+    height: 6vh;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 0.2%;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+}
+
+ header label{
+    margin-right: 7%;
+    width: 30%;
+}
+
+label,input,p{
+    font-weight: bold;
+}
+
+span{
+    cursor: pointer;
+}
+
+button{
+    background-image: url(anadir.svg);
+    width: 50px;
+    height: 40px;
+    border: 0px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
